@@ -1,11 +1,23 @@
 package loop.ex;
 
-public class NastedEx2 {
+public class NestedEx2 {
     public static void main(String[] args) {
-        int rows = 2;
+        int rows =50;
 
-        for (int i = 1; i<=rows; i++){
-            for (int j = 1; )
+        for (int i = 1; i <= rows; i++){
+            for(int j = 1; j<=i; j++){
+                System.out.print("*");
+
+            }
+            System.out.println();
         }
+
+        System.out.print("*");
+        System.out.println();
+        System.out.print("*");
+        System.out.print("*");
+        System.out.println();
+
+
     }
 }
