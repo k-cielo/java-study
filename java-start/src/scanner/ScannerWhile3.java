@@ -17,6 +17,7 @@ public class ScannerWhile3 {
             }
             sum += number;
         }
-        System.out.println("입력한 모든 정수의 합: "+sum);
+        System.out.println("입력한 모든 정수의 합: "
+                +sum);
     }
 }
