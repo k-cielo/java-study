@@ -13,6 +13,8 @@ public class Array1Ref1 {
         students[2] = 70;
         students[3] = 60;
         students[4] = 50;
+//      students[5] = 40; 인덱스 허용범위를 넘어감
+
 
         /*
         int student1 = 90;
@@ -21,10 +23,10 @@ public class Array1Ref1 {
         int student4 = 60;
         int student5 = 50;
         int student6 = 40;
-
          */
         //비슷한 변수를 계속 선언해야됨
         //반복문 사용불가 => 변수이름이 다 다름
+
 
 //        for (int i = 1; i<=6; i++){
 //            System.out.println("학생"+i+" 점수: "+student1);//변수명 변경어려우므로 다 같은 점수 나옴
