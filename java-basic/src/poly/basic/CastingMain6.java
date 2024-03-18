@@ -17,6 +17,7 @@ public class CastingMain6 {
         if (parent instanceof Child child) {//변수선언 가능(다운캐스팅)
             System.out.println("Child 인스턴스 맞음");
 
+
             child.childMethod();
         }
     }
