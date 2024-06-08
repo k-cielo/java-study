@@ -1,4 +1,6 @@
-package nested.nested;
+package nested.nested.nested;
+
+import nested.nested.nested.NestedOuter;
 
 public class NestedOuterMain {
     public static void main(String[] args) {
